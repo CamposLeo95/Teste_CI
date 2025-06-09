@@ -3,7 +3,6 @@ import express from 'express';
 import 'dotenv/config';
 
 const app = express();
- console.log('teste');
 app.get('/', (req: Request, res: Response) => {
   res.send('Hello, World!');
 
