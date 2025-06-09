@@ -2,7 +2,7 @@ import { Request, Response } from "express";
 import express from 'express';
 import 'dotenv/config';
 
-console.log('Starting the application...');
+// console.log('Starting the application...');
 
 const app = express();
 app.get('/', (req: Request, res: Response) => {
