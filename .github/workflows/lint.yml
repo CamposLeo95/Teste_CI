@@ -18,5 +18,5 @@ jobs:
         with:
           node-version: '23.x'
       - run: npm ci
-      - name: Rodar ESLint
-        run: npx eslint --ext .ts .
+      - name: Biome (Lint)
+        run: npx @biomejs/biome format --write
